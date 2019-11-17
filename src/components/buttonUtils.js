@@ -1,4 +1,5 @@
 import cn from 'classnames';
+import PropTypes from 'prop-types';
 import { ButtonVariants } from './constants';
 
 /**
@@ -22,3 +23,11 @@ export const getClassNames = (variant, disabled, loading) =>
       'cursor-wait': loading
     }
   );
+
+export const ButtonPropTypes = {
+  onClick: PropTypes.func.isRequired,
+  children: PropTypes.oneOfType([ PropTypes.element, PropTypes.node, PropTypes.string, PropTypes.number]).isRequired,
+  type: PropTypes.oneOf(['button', 'submit']),
+  disabled: PropTypes.bool,
+  loading: PropTypes.bool,
+};

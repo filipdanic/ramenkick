@@ -1,1 +1,5 @@
-export const ButtonVariants = { PRIMARY: 'PRIMARY', SECONDARY: 'SECONDARY', DANGER: 'DANGER' };
+export const ButtonVariants = {
+  PRIMARY: 'PRIMARY',
+  SECONDARY: 'SECONDARY',
+  DANGER: 'DANGER',
+};
