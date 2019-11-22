@@ -38,9 +38,9 @@ const TextArea = ({
         onFocus={onFocus}
         disabled={disabled}
         rows={rows}
-      >
-        {value}
-      </textarea>
+        value={value}
+      />
+
       {validationError &&
         <p className="text-red-500 text-xs italic">{validationError}</p>
       }

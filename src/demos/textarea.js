@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Text from '../components/Text';
 import TextArea from '../components/TextArea';
-import TextField from '../components/TextField';
 
 const defaultValues = {
   intro: '',

@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonPage from './demos/buttons';
+import CheckboxPage from './demos/checkbox';
 import TextAreaPage from './demos/textarea';
 import TextFieldPage from './demos/textfield';
 import TypographyPage from './demos/typography';
@@ -20,6 +21,7 @@ function App() {
         </div>
       </div>
 
+      <CheckboxPage />
       <TextAreaPage />
       <TextFieldPage />
       <TypographyPage />
