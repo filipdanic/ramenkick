@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonPage from './demos/buttons';
+import TextAreaPage from './demos/textarea';
 import TextFieldPage from './demos/textfield';
 import TypographyPage from './demos/typography';
 import Text from './components/Text';
@@ -18,6 +19,8 @@ function App() {
           <Text p mono className='text-white'>Running with React</Text>
         </div>
       </div>
+
+      <TextAreaPage />
       <TextFieldPage />
       <TypographyPage />
       <ButtonPage />
