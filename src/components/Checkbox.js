@@ -39,7 +39,7 @@ const Checkbox = ({
         <div
           className={cn(
             'bg-white shadow w-6 h-6 p-1 flex justify-center items-center mr-2',
-            { 'bg-gray-200': disabled }
+            { 'bg-gray-300': disabled }
           )}>
           <input
             className='hidden'

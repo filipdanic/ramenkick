@@ -27,7 +27,7 @@ const TextField = ({
           'shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline',
           {
             'border-red-500': !!validationError,
-            'cursor-not-allowed': disabled
+            'cursor-not-allowed bg-gray-300': disabled,
           }
         )}
         type={type}
