@@ -8,7 +8,7 @@ const NavigationBar = ({
  }) => {
   const [ isOpen, setIsOpen ] = useState(false);
   return (
-    <header className='bg-gray-900 w-full sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center'>
+    <header className='bg-navbar-900 w-full sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center'>
       <div className='flex w-full items-center justify-between px-4 py-3 sm:p-0'>
         <div>
           {logoComponent}

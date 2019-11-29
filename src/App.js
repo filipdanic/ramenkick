@@ -12,7 +12,10 @@ import AppLayout from './components/AppLayout';
 
 const AppNavigationBar =
   <NavigationBar
-    logoComponent={<Text h2 asElement='h1' className='text-danger-action-700'>#RamenKick</Text>}
+    logoComponent={
+      <Text h2 asElement='h1' className='text-danger-action-700'>
+        <Link to='/'>#RamenKick</Link>
+      </Text>}
     actionComponent={
       <>
         <NavigationLink to='/'>Github</NavigationLink>
@@ -24,12 +27,12 @@ const AppNavigationBar =
 
 const AppSidebarNavigation =
   <>
-    <Link className='flex-1 p-2' to='/button'>Button</Link>
-    <Link className='flex-1 p-2' to='/checkbox'>Checkbox</Link>
-    <Link className='flex-1 p-2' to='/selectfield'>SelectField</Link>
-    <Link className='flex-1 p-2' to='/textarea'>TextArea</Link>
-    <Link className='flex-1 p-2' to='/textfield'>TextField</Link>
-    <Link className='flex-1 p-2' to='/typography'>Typography</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/button'>Button</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/checkbox'>Checkbox</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/selectfield'>SelectField</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/textarea'>TextArea</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/textfield'>TextField</Link>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/typography'>Typography</Link>
   </>;
 
 const AppBody =

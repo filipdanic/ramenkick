@@ -5,10 +5,10 @@ const AppLayout = ({
   sidebarContent,
   bodyContent,
 }) =>
-  <div className='flex flex-col bg-blue-300'>
+  <div className='flex flex-col bg-sidebar-900'>
     {navigationBar}
     <div className='flex flex-col md:flex-row'>
-      <div className='bg-blue-300 md:relative z-10 p-6 md:h-screen md:w-1/5'>
+      <div className='bg-sidebar-900 md:relative z-10 p-6 md:h-screen md:w-1/5'>
         <div className='flex flex-wrap flex-row lg:flex-col md:flex-col'>
           {sidebarContent}
         </div>
