@@ -16,7 +16,7 @@ export default () => {
   };
 
   return (
-    <div className='flex flex-col w-1/2 mx-auto my-12'>
+    <>
       <Text h2 className='bg-red-300 my-8' id="TextField">## TextArea</Text>
 
       <Text h3 className='bg-red-100 my-4'>### At a Glance</Text>
@@ -56,6 +56,6 @@ export default () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }

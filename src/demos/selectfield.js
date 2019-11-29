@@ -24,7 +24,7 @@ export default () => {
   };
 
   return (
-    <div className='flex flex-col w-1/2 mx-auto my-12'>
+    <>
       <Text h2 className='bg-indigo-300 my-8' id="TextField">## SelectField</Text>
 
       <Text h3 className='bg-indigo-100 my-4'>### At a Glance</Text>
@@ -59,6 +59,6 @@ export default () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }

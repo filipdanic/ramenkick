@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "autoprefixer": "^9.7.1",
     "classnames": "^2.2.6",
     "postcss-cli": "^6.1.3",

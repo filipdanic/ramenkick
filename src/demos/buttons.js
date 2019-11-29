@@ -5,7 +5,7 @@ import Text from '../components/Text';
 export default () => {
   const [ isLoading, toggleLoading ] = useState(false);
   return (
-    <div className='flex flex-col w-1/2 mx-auto my-12'>
+    <>
       <Text h2 className='bg-orange-300 my-8' id="Buttons">## Buttons</Text>
 
       <Text h3 className='bg-orange-100 my-4'>### Defaults</Text>
@@ -91,6 +91,6 @@ export default () => {
           </DangerButton>
         </div>
       </div>
-    </div>
+    </>
   );
 };

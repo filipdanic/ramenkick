@@ -2,7 +2,7 @@ import React from 'react';
 import Text from '../components/Text';
 
 export default () =>
-  <div className='flex flex-col w-1/2 mx-auto my-12'>
+  <>
     <Text h2 className='bg-blue-300 my-8' id="Typography">## Typography</Text>
 
     <Text h3 className='bg-blue-100 my-4'>### Headings</Text>
@@ -24,4 +24,4 @@ export default () =>
     <Text p sans>A simple paragraph with the theme’s sans serif font.</Text>
     <Text p mono>A simple paragraph with the theme’s monospace font.</Text>
     <Text p className='bg-yellow-200 text-indigo-600'>A simple paragraph with some <Text span mono className='bg-red-700 text-white px-1'>crazy-ish</Text> stuff.</Text>
-  </div>;
+  </>;
