@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router, Link } from '@reach/router';
+import AvatarPage from './demos/avatars';
 import ButtonPage from './demos/buttons';
 import CheckboxPage from './demos/checkbox';
 import CardPage from './demos/card';
@@ -30,6 +31,7 @@ const AppNavigationBar =
 const AppSidebarNavigation =
   <>
     <Text p className='flex-1 text-sidebar-000 opacity-50 p-2'>Components</Text>
+    <Link className='flex-1 text-sidebar-000 p-2' to='/avatar'>Avatar</Link>
     <Link className='flex-1 text-sidebar-000 p-2' to='/button'>Button</Link>
     <Link className='flex-1 text-sidebar-000 p-2' to='/card'>Card</Link>
     <Link className='flex-1 text-sidebar-000 p-2' to='/checkbox'>Checkbox</Link>
@@ -43,6 +45,7 @@ const AppSidebarNavigation =
 
 const AppBody =
   <Router>
+    <AvatarPage path='avatar' />
     <ButtonPage path='button' />
     <FormsPage path='forms' />
     <CheckboxPage path='checkbox' />

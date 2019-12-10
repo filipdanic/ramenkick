@@ -4,9 +4,9 @@ import Card from '../components/Card';
 
 export default () =>
   <>
-    <Text h2 className='bg-blue-300 my-8' id="Typography">## Card</Text>
+    <Text h2 className='bg-blue-300 my-8' id="Typography">Card</Text>
 
-    <Text h3 className='bg-indigo-100 my-4'>### At a Glance</Text>
+    <Text h3 className='bg-indigo-100 my-4'>At a Glance</Text>
     <div className='flex w-full mb-6'>
       <div className='w-1/3 px-4'>
         <Card className='w-64'>
@@ -28,7 +28,7 @@ export default () =>
       </div>
     </div>
 
-    <Text h3 className='bg-indigo-100 my-4'>### Dashboard Vibes</Text>
+    <Text h3 className='bg-indigo-100 my-4'>Dashboard Vibes</Text>
 
     <div className='flex w-full mb-6'>
       <div className='w-1/3 px-4'>

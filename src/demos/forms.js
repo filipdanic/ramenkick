@@ -25,12 +25,12 @@ export default () => {
 
   return (
     <div className='w-full lg:max-w-2xl'>
-      <Text h2 className='bg-blue-300 my-8' id="Typography">## Forms</Text>
+      <Text h2 className='bg-blue-300 my-8' id="Typography">Forms</Text>
 
       <Text p>Currently, there are no Form-like abstractions out of the box – you are free to setup wrappers that suit
         your needs. Here are some layouts for inspiration!</Text>
 
-      <Text h3 className='bg-blue-100 my-8' id="Typography">## Signup Form</Text>
+      <Text h3 className='bg-blue-100 my-8' id="Typography">Signup Form</Text>
 
       <Card className='max-w-lg'>
         <form

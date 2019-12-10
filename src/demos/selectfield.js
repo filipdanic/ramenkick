@@ -25,9 +25,9 @@ export default () => {
 
   return (
     <>
-      <Text h2 className='bg-indigo-300 my-8' id="TextField">## SelectField</Text>
+      <Text h2 className='bg-indigo-300 my-8' id="TextField">SelectField</Text>
 
-      <Text h3 className='bg-indigo-100 my-4'>### At a Glance</Text>
+      <Text h3 className='bg-indigo-100 my-4'>At a Glance</Text>
       <div className='flex w-full mb-6'>
         <div className='w-1/3 px-4'>
           <SelectField

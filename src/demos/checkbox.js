@@ -17,9 +17,9 @@ export default () => {
 
   return (
     <>
-      <Text h2 className='bg-yellow-300 my-8' id="TextField">## Checkbox</Text>
+      <Text h2 className='bg-yellow-300 my-8' id="TextField">Checkbox</Text>
 
-      <Text h3 className='bg-yellow-100 my-4'>### At a Glance</Text>
+      <Text h3 className='bg-yellow-100 my-4'>At a Glance</Text>
       <div className='flex w-full mb-6'>
         <div className='w-full px-4'>
           <Checkbox
@@ -31,7 +31,7 @@ export default () => {
         </div>
       </div>
 
-      <Text h3 className='bg-yellow-100 my-4'>### States</Text>
+      <Text h3 className='bg-yellow-100 my-4'>States</Text>
       <div className='flex w-full mb-6 flex-col'>
         <div className='w-full px-4 mb-6'>
           <Checkbox

@@ -13,9 +13,9 @@ export default () => {
 
   return (
     <>
-      <Text h2 className='bg-pink-300 my-8' id="TextField">## TextField</Text>
+      <Text h2 className='bg-pink-300 my-8' id="TextField">TextField</Text>
 
-      <Text h3 className='bg-pink-100 my-4'>### At a Glance</Text>
+      <Text h3 className='bg-pink-100 my-4'>At a Glance</Text>
       <div className='flex w-full mb-6'>
         <div className='w-1/2 px-4'>
           <TextField
@@ -39,7 +39,7 @@ export default () => {
         </div>
       </div>
 
-      <Text h3 className='bg-pink-100 my-4'>### States</Text>
+      <Text h3 className='bg-pink-100 my-4'>States</Text>
       <div className='flex w-full mb-6'>
         <div className='w-1/2 px-4'>
           <TextField
