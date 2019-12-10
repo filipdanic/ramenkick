@@ -54,7 +54,7 @@ TextField.propTypes = {
   type: PropTypes.oneOf(['text', 'password']).isRequired,
   validationError: PropTypes.string,
   value: PropTypes.string.isRequired,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
   disabled: PropTypes.bool,

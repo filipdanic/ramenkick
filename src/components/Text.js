@@ -14,6 +14,7 @@ const Text = ({
   h1, h2, h3, h4, h5, h6, p, span,
   uppercase,
   lowercase,
+  center, left, right, justify,
   small,
   className,
   sans, serif, mono,
@@ -32,13 +33,17 @@ const Text = ({
           'text-xl lg:text-2xl': h4,
           'text-lg lg:text-xl': h5,
           'text-lg lg:text-lg': h6,
-          'text-base': p || span,
+          'text-base': (p || span) && !small,
           'text-sm': small,
           'uppercase': uppercase,
           'lowercase': lowercase,
           'font-sans': sans,
           'font-serif': serif,
           'font-mono': mono,
+          'text-center': center,
+          'text-left': left,
+          'text-right': right,
+          'text-justify': justify,
         }),
     },
     children
@@ -63,6 +68,10 @@ Text.propTypes = {
   sans: PropTypes.bool,
   serif: PropTypes.bool,
   mono: PropTypes.bool,
+  center: PropTypes.bool,
+  left: PropTypes.bool,
+  right: PropTypes.bool,
+  justify: PropTypes.bool,
 };
 
 export default Text;
