@@ -1,17 +1,17 @@
 import React from 'react';
 import { Router, Link } from '@reach/router';
-import AvatarPage from './demos/avatars';
-import ButtonPage from './demos/buttons';
-import CheckboxPage from './demos/checkbox';
-import CardPage from './demos/card';
-import FormsPage from './demos/forms';
-import SelectFieldPage from './demos/selectfield';
-import TextAreaPage from './demos/textarea';
-import TextFieldPage from './demos/textfield';
-import TypographyPage from './demos/typography';
-import Text from './components/Text';
-import NavigationBar, { NavigationLink } from './components/NavigationBar';
-import AppLayout from './components/AppLayout';
+import AvatarPage from './pages/avatars';
+import ButtonPage from './pages/buttons';
+import CheckboxPage from './pages/checkbox';
+import CardPage from './pages/card';
+import FormsPage from './pages/forms';
+import SelectFieldPage from './pages/selectfield';
+import TextAreaPage from './pages/textarea';
+import TextFieldPage from './pages/textfield';
+import TypographyPage from './pages/typography';
+import Text from '../lib/components/Text';
+import NavigationBar, { NavigationLink } from '../lib/components/NavigationBar';
+import AppLayout from '../lib/components/AppLayout';
 
 const AppNavigationBar =
   <NavigationBar

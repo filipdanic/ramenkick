@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Text from '../components/Text';
-import SelectField from '../components/SelectField';
+import Text from '../../lib/components/Text';
+import SelectField from '../../lib/components/SelectField';
 
 const defaultValues = {
   pepper: 'SR',

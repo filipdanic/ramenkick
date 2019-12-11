@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import Text from '../components/Text';
-import TextField from '../components/TextField';
-import Checkbox from '../components/Checkbox';
-import Card from '../components/Card';
-import { PrimaryButton } from '../components/Button';
+import Text from '../../lib/components/Text';
+import TextField from '../../lib/components/TextField';
+import Checkbox from '../../lib/components/Checkbox';
+import Card from '../../lib/components/Card';
+import { PrimaryButton } from '../../lib/components/Button';
 
 const defaultValues = {
   firstName: '',

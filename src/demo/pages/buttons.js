@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { DangerButton, PrimaryButton, SecondaryButton } from '../components/Button';
-import Text from '../components/Text';
+import { DangerButton, PrimaryButton, SecondaryButton } from '../../lib/components/Button';
+import Text from '../../lib/components/Text';
 
 export default () => {
   const [ isLoading, toggleLoading ] = useState(false);

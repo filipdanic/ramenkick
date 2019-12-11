@@ -1,6 +1,6 @@
 import React from 'react';
-import Text from '../components/Text';
-import Card from '../components/Card';
+import Text from '../../lib/components/Text';
+import Card from '../../lib/components/Card';
 
 export default () =>
   <>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Text from '../components/Text';
-import Checkbox from '../components/Checkbox';
+import Text from '../../lib/components/Text';
+import Checkbox from '../../lib/components/Checkbox';
 
 const defaultValues = {
   tos: true,

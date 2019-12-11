@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Text from '../components/Text';
-import TextField from '../components/TextField';
+import Text from '../../lib/components/Text';
+import TextField from '../../lib/components/TextField';
 
 const defaultValues = { secretIdentity: 'Batman', password: 'GothamNeedsMe', username: 'jon', otherUsername: 'notbatman' };
 

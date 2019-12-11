@@ -1,6 +1,6 @@
 import React from 'react';
-import Text from '../components/Text';
-import Avatar from '../components/Avatar';
+import Text from '../../lib/components/Text';
+import Avatar from '../../lib/components/Avatar';
 
 export default () =>
   <>

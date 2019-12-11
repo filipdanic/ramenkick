@@ -1,0 +1,54 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import cn from 'classnames';
+
+const Chevron = () => React.createElement("div", {
+  className: "pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+}, React.createElement("svg", {
+  className: "fill-current h-4 w-4",
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 20 20"
+}, React.createElement("path", {
+  d: "M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+})));
+
+const SelectField = ({
+  name,
+  options,
+  value,
+  label,
+  validationError,
+  onBlur,
+  onFocus,
+  onChange,
+  disabled
+}) => React.createElement(React.Fragment, null, label && React.createElement("label", {
+  className: "block text-gray-700 text-sm font-bold mb-2 text-base",
+  htmlFor: name
+}, label), React.createElement("div", {
+  className: "inline-block relative w-full"
+}, React.createElement("select", {
+  className: cn('block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline', {
+    'border-red-500': !!validationError,
+    'cursor-not-allowed bg-gray-300': disabled
+  }),
+  id: name,
+  name: name,
+  value: value,
+  onChange: onChange,
+  disabled: disabled
+}, options.map(option => React.createElement("option", {
+  value: option.value,
+  key: option.id || option.value
+}, option.label))), React.createElement(Chevron, null)), validationError && React.createElement("p", {
+  className: "text-red-500 text-xs italic"
+}, validationError));
+
+SelectField.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    label: PropTypes.string.isRequired
+  }))
+};
+export default SelectField;

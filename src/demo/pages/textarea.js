@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Text from '../components/Text';
-import TextArea from '../components/TextArea';
+import Text from '../../lib/components/Text';
+import TextArea from '../../lib/components/TextArea';
 
 const defaultValues = {
   intro: '',
